@@ -1,0 +1,6 @@
+[submodule "PsDemo/Plugins/PsPushNotificationsExtended"]
+	path = PsDemo/Plugins/PsPushNotificationsExtended
+	url = git@github.com:PushkinStudio/PsPushNotificationsExtended.git
+[submodule "PsDemo/Plugins/PsAndroidAdaptiveIcon"]
+	path = PsDemo/Plugins/PsAndroidAdaptiveIcon
+	url = git@github.com:PushkinStudio/PsAndroidAdaptiveIcon.git

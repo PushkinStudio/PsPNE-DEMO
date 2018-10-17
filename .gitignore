@@ -75,3 +75,9 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+PsDemo/Saved/*
+PsDemo/Binaries/*
+.Ds_Store
+PsDemo/Intermediate/*
+
