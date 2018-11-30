@@ -29,7 +29,7 @@ rm -rf Binaries
 if [ "${bamboo_BUILD_CLEAN}" -eq "1" ]
 then
     echo "Force clean build.."
-    rm -rf DerivedDataCache Intermediate Plugins Saved
+    rm -rf DerivedDataCache Intermediate Saved
 fi
 
 echo "Check dirs after cleanup:"
