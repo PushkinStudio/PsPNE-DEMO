@@ -88,9 +88,6 @@ echo "UE4 ROOT: $UE4_ROOT"
 echo "Unlock the keychain to make code signing work.."
 security unlock-keychain -p awmcodemac ${HOME}/Library/Keychains/login.keychain
 
-# Copy engine content
-cp -rf ${UE4_PROJECT_ROOT}/Content/Engine/ ${UE4_ROOT}/Engine/Content/
-
 echo "Build now.."
 pushd ${UE4_ROOT}
 ./Engine/Build/BatchFiles/RunUAT.command BuildCookRun \
